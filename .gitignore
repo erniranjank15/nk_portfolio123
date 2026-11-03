@@ -1,0 +1,13 @@
+# Next.js
+.next/
+out/
+build/
+node_modules/
+
+# Environment Variables
+.env
+.env*.local
+
+# System & Editor
+.DS_Store
+*.log
