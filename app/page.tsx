@@ -193,6 +193,7 @@ export default function Home() {
     }, 4000);
   };
 
+  
   // Copy to clipboard helper
   const copyToClipboard = (text: string) => {
     if (navigator.clipboard) {
@@ -408,17 +409,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Resume / Profile */}
-            <div className="resume-wrapper">
-              <a href="https://github.com/erniranjank15" target="_blank" rel="noopener noreferrer" className="btn btn-outline full-width">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                  <polyline points="7 10 12 15 17 10"></polyline>
-                  <line x1="12" y1="15" x2="12" y2="3"></line>
-                </svg>
-                View GitHub Profile
-              </a>
-            </div>
+           
           </div>
         </aside>
 
@@ -426,7 +417,7 @@ export default function Home() {
         <main className="main-content">
           {/* Header Nav */}
           <header id="navigation" className="nav-header">
-            <div className="nav-brand">Er. Niranjan</div>
+            <div className="nav-brand">Er. NK</div>
             <button
               id="nav-toggle"
               className={`nav-toggle ${mobileNavOpen ? 'active' : ''}`}
@@ -458,7 +449,7 @@ export default function Home() {
               <div className="heading-line"></div>
             </div>
             <p className="content bio-text">
-              Computer Science graduate with a strong foundation in software development, problem-solving, and application design. Experienced in developing full-stack web applications using <strong>React.js</strong>, <strong>FastAPI</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Spring Boot</strong>, and <strong>MongoDB</strong>. Passionate about building efficient, user-focused software solutions and continuously expanding technical expertise. Seeking an entry-level Software Developer role to contribute, learn, and grow professionally.
+              Computer Science graduate with a strong foundation in software development, problem-solving, and application design. Experienced in developing full-stack web applications using <strong>React.js</strong>, <strong>FastAPI</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Spring Boot</strong>, <strong>PostgreSQL</strong> and <strong>MongoDB</strong>. Passionate about building efficient, user-focused software solutions and continuously expanding technical expertise. Seeking an entry-level Software Developer role to contribute, learn, and grow professionally.
             </p>
 
             <div className="stats-grid">
@@ -492,10 +483,10 @@ export default function Home() {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                       <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                     </svg>
-                    Aarmarks Media Pvt Ltd, Kolhapur
+                    Aarmarks Media Pvt Ltd. Kolhapur
                   </div>
                 </div>
-                <span className="exp-date">June 2026 – Present</span>
+                <span className="exp-date">June 2026 – December 2026</span>
               </div>
               <ul className="exp-bullet-list">
                 <li>Implemented <strong>lead search, filtering, bulk selection, and status management</strong>.</li>
@@ -560,7 +551,7 @@ export default function Home() {
                   <h3 className="degree">Bachelor of Technology in Computer Science & Engineering</h3>
                   <p className="college">Ashokrao Mane Group Of Institutions, Vathar</p>
                   <div className="timeline-footer">
-                    <span className="grade-badge">CGPA: 6.85</span>
+                    <span className="grade-badge">Grade: First Class</span>
                     <span className="degree-tag">Degree</span>
                   </div>
                 </div>
@@ -684,7 +675,7 @@ export default function Home() {
                   <input
                     type="text"
                     id="form-name"
-                    placeholder="John Doe"
+                    placeholder="NK"
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -695,7 +686,7 @@ export default function Home() {
                   <input
                     type="email"
                     id="form-email"
-                    placeholder="john@example.com"
+                    placeholder="nk@example.com"
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
