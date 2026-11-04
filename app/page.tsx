@@ -209,10 +209,9 @@ export default function Home() {
   useEffect(() => {
     const roles = [
       'Junior Software Developer Intern',
+      'Frontend Developer',
+      'Backend Developer',
       'Full Stack Developer',
-      'React & FastAPI Developer',
-      'Node.js & Express Enthusiast',
-      'Spring Boot & Java Developer',
       'B.Tech CSE Graduate',
     ];
     let roleIndex = 0;
