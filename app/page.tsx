@@ -131,8 +131,8 @@ const projectsData: Project[] = [
     image: '/assets/p7.webp',
     description: 'A customized dark glassmorphism portfolio site engineered to highlight software projects, technical skills, education timeline, and professional contact channels.',
     categories: ['web'],
-    tech: ['Next.js', 'React', 'CSS3', 'Brevo API'],
-    live: 'https://personalportfolionk.netlify.app/',
+    tech: ['Next.js', 'React', 'CSS3', 'Nodemail'],
+    live: 'https://nk-portfolio123.vercel.app/',
     github: 'https://github.com/erniranjank15/Portfolio',
     features: [
       'Glassmorphism Visual Aesthetic & Ambient Glow',
@@ -358,7 +358,8 @@ export default function Home() {
                     className="value copy-link"
                     style={{ background: 'none', border: 'none', textAlign: 'left', cursor: 'pointer', padding: 0 }}
                   >
-                    kasoteniranjan23@gmail.com
+                  
+                    <span className="value">kasoteniranjan23@gmail.com</span>
                   </button>
                 </div>
               </div>
@@ -376,7 +377,8 @@ export default function Home() {
                     className="value copy-link"
                     style={{ background: 'none', border: 'none', textAlign: 'left', cursor: 'pointer', padding: 0 }}
                   >
-                    +91 91468 42375
+                     <span className="value">+91 91468 42375</span>
+                    
                   </button>
                 </div>
               </div>
